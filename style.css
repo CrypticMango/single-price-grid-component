@@ -20,7 +20,11 @@ h1 {
     color: var(--cyan);
 }
 
-h2, p {
+h1, h2, h3 {
+    margin-top: 0;
+}
+
+h2, h3, p, ul {
     color: white;
 }
 
@@ -29,24 +33,34 @@ button {
     color: white;
 }
 
+.bottom-half {
+    display: flex;
+    flex-direction: row;
+}
+
 .container {
-    width: 900px;
+    width: 650px;
+    
 }
 
 .top-info {
     background-color: white;
+    padding: 40px;
 }
 
 .gain-access {
     color: var(--grayish-blue);
+    margin-bottom: 0;
 }
 
 .pricing-info {
     background-color: var(--cyan);
+    padding: 40px;
 }
 
 .why-us-info {
-    background-color: hsla(179, 62%, 43%, 0.548)
+    background-color: hsla(179, 62%, 43%, 0.801);
+    padding: 40px
 }
 
 .thirty-day {
