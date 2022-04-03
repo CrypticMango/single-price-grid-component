@@ -13,124 +13,129 @@ body {
 	justify-content: center;
 	margin: 0;
 	min-height: 100vh;
-    background-color: var(--light-gray);
+	background-color: var(--light-gray);
 }
 
 h1 {
-    color: var(--cyan);
-    font-size: 20px;
+	color: var(--cyan);
+	font-size: 20px;
 }
 
-h1, h2, h3 {
-    margin-top: 0;
+h1,
+h2,
+h3 {
+	margin-top: 0;
 }
 
-h2, h3, p, ul {
-    color: white;
+h2,
+h3,
+p,
+ul {
+	color: white;
 }
 
 button {
-    background-color: var(--bright-yellow);
-    color: white;
+	background-color: var(--bright-yellow);
+	color: white;
 }
 
 .bottom-half {
-    display: flex;
-    flex-direction: row;
+	display: flex;
+	flex-direction: row;
 }
 
 .container {
-    width: 650px;
+	width: 650px;
 }
 
 .top-info {
-    background-color: white;
-    padding: 40px;
+	background-color: white;
+	padding: 40px;
 }
 
 .gain-access {
-    color: var(--grayish-blue);
-    margin-bottom: 0;
-    font-size: 15px;
-    line-height: 1.5rem;
+	color: var(--grayish-blue);
+	margin-bottom: 0;
+	font-size: 15px;
+	line-height: 1.5rem;
 }
 
 .pricing-info {
-    background-color: var(--cyan);
-    padding: 40px;
+	background-color: var(--cyan);
+	padding: 40px;
 }
 
 .why-us-info {
-    background-color: hsla(179, 62%, 43%, 0.801);
-    padding: 40px
+	background-color: hsla(179, 62%, 43%, 0.801);
+	padding: 40px;
 }
 
 .thirty-day {
-    color: var(--bright-yellow);
-    font-weight: 700;
+	color: var(--bright-yellow);
+	font-weight: 700;
 }
 
 .attribution {
 	font-size: 11px;
 	text-align: center;
-    color: black;
+	color: black;
 }
 .attribution a {
 	color: hsl(228, 45%, 44%);
 }
 
 @media (max-width: 500px) {
+	body {
+		margin: 10px 5px 10px 5px;
+	}
 
-    body {
-        margin: 10px 5px 10px 5px;
-    }
+	button {
+		padding: 17px 104px;
+		border: 1px solid var(--grayish-blue);
+		border-radius: 6px;
+		font-family: "Karla", sans-serif;
+		font-weight: 700;
+		margin-top: 15px;
+	}
 
-    button {
-        padding: 17px 104px;
-        border: 1px solid var(--grayish-blue);
-        border-radius: 6px;
-        font-family: "Karla", sans-serif;
-        font-weight: 700;
-        margin-top: 15px;
-    }
+	.container {
+		width: 310px;
+	}
 
-    .container {
-        width: 310px;
-    }
+	.top-info,
+	.pricing-info,
+	.why-us-info {
+		padding: 25px;
+	}
 
-    .top-info, .pricing-info, .why-us-info {
-        padding: 25px;
-    }
+	/*first section mobile styling*/
 
-    /*first section mobile styling*/
+	.gain-access {
+		font-size: 13px;
+	}
 
-    .gain-access {
-        font-size: 13px;
-    }
+	/*second section mobile styling*/
 
-    /*second section mobile styling*/
+	.subscription-heading {
+		font-size: 18px;
+	}
 
-    .subscription-heading {
-        font-size: 18px;
-    }
+	.subscription-price {
+		font-size: 30px;
+		font-weight: 700;
+		margin: 0;
+	}
 
-    .subscription-price {
-        font-size: 30px;
-        font-weight: 700;
-        margin: 0;
-    }
+	.per-month {
+		color: rgba(255, 255, 255, 0.404);
+		font-size: 16px;
+		font-weight: 400;
+	}
 
-    .per-month {
-        color: rgba(255, 255, 255, 0.404);
-        font-size: 16px;
-        font-weight: 400;
-    }
+	/*bottom section mobile styling*/
 
-    /*bottom section mobile styling*/
-
-    .bottom-half {
-        display: flex;
-        flex-direction: column;
-    }
-    
+	.bottom-half {
+		display: flex;
+		flex-direction: column;
+	}
 }
