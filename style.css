@@ -37,23 +37,23 @@ ul {
 button {
 	background-color: var(--bright-yellow);
 	color: white;
-    border: 1px solid var(--grayish-blue);
+	border: 1px solid var(--grayish-blue);
 	border-radius: 6px;
 	font-family: "Karla", sans-serif;
-    padding: 12px 80px;
-    margin-top: 15px;
-   
+	padding: 12px 80px;
+	margin-top: 15px;
+    box-shadow: 1px 5px 20px rgba(0, 0, 0, 0.329);
 }
 
 ul {
-    padding: 0px;
+	padding: 0px;
 }
 
 li {
-    list-style-type: none;
-    color: rgba(255, 255, 255, 0.596);
-    font-size: 13px;
-    line-height: 1.2rem;
+	list-style-type: none;
+	color: rgba(255, 255, 255, 0.596);
+	font-size: 13px;
+	line-height: 1.2rem;
 }
 
 .container {
@@ -70,7 +70,7 @@ li {
 .top-info {
 	background-color: white;
 	padding: 40px;
-    border-radius: 7px 7px 0px 0px;
+	border-radius: 7px 7px 0px 0px;
 }
 
 .thirty-day {
@@ -88,39 +88,39 @@ li {
 /*styling for desktop left card below*/
 
 .subscription-heading {
-    font-size: 18px;
+	font-size: 18px;
 }
 
 .pricing-info {
 	background-color: var(--cyan);
 	padding: 40px 40px 20px 40px;
-    width: 300px;
-   border-radius: 0px 0px 0px 7px;
+	width: 300px;
+	border-radius: 0px 0px 0px 7px;
 }
 
 .subscription-price {
-    font-size: 30px;
-    font-weight: 700;
-    margin: 0;
+	font-size: 30px;
+	font-weight: 700;
+	margin: 0;
 }
 
 .per-month {
-    color: rgba(255, 255, 255, 0.452);
+	color: rgba(255, 255, 255, 0.452);
 	font-size: 16px;
 	font-weight: 400;
 }
 
 .full-access {
-    font-size: 14px;
+	font-size: 14px;
 }
 
 /*styling for desktop right card  below*/
 
 .why-us-info {
 	background-color: hsla(179, 62%, 43%, 0.801);
-    padding: 40px 40px 20px 40px;
-    width: 300px;
-    border-radius: 0px 0px 7px 0px;
+	padding: 40px 40px 20px 40px;
+	width: 300px;
+	border-radius: 0px 0px 7px 0px;
 }
 
 /*attribution styling*/
@@ -129,7 +129,7 @@ li {
 	font-size: 11px;
 	text-align: center;
 	color: black;
-    margin-top: 30px;
+	margin-top: 30px;
 }
 .attribution a {
 	color: hsl(228, 45%, 44%);
@@ -149,21 +149,22 @@ li {
 		font-family: "Karla", sans-serif;
 		font-weight: 700;
 		margin-top: 15px;
+		box-shadow: 1px 5px 20px rgba(0, 0, 0, 0.329);
 	}
 
-    li {
-        font-size: 15px;
-        line-height: 1.3rem;
-    }
+	li {
+		font-size: 15px;
+		line-height: 1.3rem;
+	}
 
 	.container {
 		width: 310px;
 	}
 
-    .pricing-info,
+	.pricing-info,
 	.why-us-info {
-        width: auto;
-    }
+		width: auto;
+	}
 
 	.top-info,
 	.pricing-info,
@@ -171,9 +172,9 @@ li {
 		padding: 25px;
 	}
 
-    .why-us-info {
-        padding-bottom: 10px;
-    }
+	.why-us-info {
+		padding-bottom: 10px;
+	}
 
 	/*first section mobile styling*/
 
@@ -183,9 +184,9 @@ li {
 
 	/*second section mobile styling*/
 
-    .pricing-info {
-        border-radius: 0px;
-    }
+	.pricing-info {
+		border-radius: 0px;
+	}
 
 	.subscription-heading {
 		font-size: 18px;
@@ -198,7 +199,7 @@ li {
 		flex-direction: column;
 	}
 
-    .why-us-info {
-        border-radius: 0px 0px 7px 7px;
-    }
+	.why-us-info {
+		border-radius: 0px 0px 7px 7px;
+	}
 }
