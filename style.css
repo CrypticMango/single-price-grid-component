@@ -39,6 +39,17 @@ button {
 	color: white;
 }
 
+ul {
+    padding: 0px;
+}
+
+li {
+    list-style-type: none;
+    color: rgba(255, 255, 255, 0.596);
+}
+
+
+
 .bottom-half {
 	display: flex;
 	flex-direction: row;
@@ -63,6 +74,10 @@ button {
 .pricing-info {
 	background-color: var(--cyan);
 	padding: 40px;
+}
+
+.per-month {
+    color: rgba(255, 255, 255, 0.452);
 }
 
 .why-us-info {
@@ -98,6 +113,11 @@ button {
 		margin-top: 15px;
 	}
 
+    li {
+        font-size: 15px;
+        line-height: 1.3rem;
+    }
+
 	.container {
 		width: 310px;
 	}
@@ -107,6 +127,10 @@ button {
 	.why-us-info {
 		padding: 25px;
 	}
+
+    .why-us-info {
+        padding-bottom: 10px;
+    }
 
 	/*first section mobile styling*/
 
@@ -127,7 +151,6 @@ button {
 	}
 
 	.per-month {
-		color: rgba(255, 255, 255, 0.404);
 		font-size: 16px;
 		font-weight: 400;
 	}
