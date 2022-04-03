@@ -137,7 +137,7 @@ li {
 
 /*mobile styling media query*/
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
 	body {
 		margin: 10px 5px 10px 5px;
 	}
