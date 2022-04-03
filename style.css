@@ -37,6 +37,12 @@ ul {
 button {
 	background-color: var(--bright-yellow);
 	color: white;
+    border: 1px solid var(--grayish-blue);
+	border-radius: 6px;
+	font-family: "Karla", sans-serif;
+    padding: 12px 80px;
+    margin-top: 15px;
+   
 }
 
 ul {
@@ -46,22 +52,30 @@ ul {
 li {
     list-style-type: none;
     color: rgba(255, 255, 255, 0.596);
+    font-size: 13px;
+    line-height: 1.2rem;
 }
 
-
+.container {
+	width: 600px;
+}
 
 .bottom-half {
 	display: flex;
 	flex-direction: row;
 }
 
-.container {
-	width: 650px;
-}
+/*styling for desktop top half below*/
 
 .top-info {
 	background-color: white;
 	padding: 40px;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.thirty-day {
+	color: var(--bright-yellow);
+	font-weight: 700;
 }
 
 .gain-access {
@@ -71,33 +85,57 @@ li {
 	line-height: 1.5rem;
 }
 
+/*styling for desktop left card below*/
+
+.subscription-heading {
+    font-size: 18px;
+}
+
 .pricing-info {
 	background-color: var(--cyan);
-	padding: 40px;
+	padding: 40px 40px 20px 40px;
+    width: 300px;
+   border-radius: 0px 0px 0px 7px;
+}
+
+.subscription-price {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0;
 }
 
 .per-month {
     color: rgba(255, 255, 255, 0.452);
+	font-size: 16px;
+	font-weight: 400;
 }
+
+.full-access {
+    font-size: 14px;
+}
+
+/*styling for desktop right card  below*/
 
 .why-us-info {
 	background-color: hsla(179, 62%, 43%, 0.801);
-	padding: 40px;
+    padding: 40px 40px 20px 40px;
+    width: 300px;
+    border-radius: 0px 0px 7px 0px;
 }
 
-.thirty-day {
-	color: var(--bright-yellow);
-	font-weight: 700;
-}
+/*attribution styling*/
 
 .attribution {
 	font-size: 11px;
 	text-align: center;
 	color: black;
+    margin-top: 30px;
 }
 .attribution a {
 	color: hsl(228, 45%, 44%);
 }
+
+/*mobile styling media query*/
 
 @media (max-width: 500px) {
 	body {
@@ -122,6 +160,11 @@ li {
 		width: 310px;
 	}
 
+    .pricing-info,
+	.why-us-info {
+        width: auto;
+    }
+
 	.top-info,
 	.pricing-info,
 	.why-us-info {
@@ -140,19 +183,12 @@ li {
 
 	/*second section mobile styling*/
 
+    .pricing-info {
+        border-radius: 0px;
+    }
+
 	.subscription-heading {
 		font-size: 18px;
-	}
-
-	.subscription-price {
-		font-size: 30px;
-		font-weight: 700;
-		margin: 0;
-	}
-
-	.per-month {
-		font-size: 16px;
-		font-weight: 400;
 	}
 
 	/*bottom section mobile styling*/
@@ -161,4 +197,8 @@ li {
 		display: flex;
 		flex-direction: column;
 	}
+
+    .why-us-info {
+        border-radius: 0px 0px 7px 7px;
+    }
 }
